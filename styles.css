@@ -1,0 +1,243 @@
+*{
+  margin: 0;
+  padding: 0;
+  /*Faz com que o padding não aumente o tamanho do width*/
+  box-sizing: border-box;
+}
+
+body{
+  background: #e6ecf0;
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  /* Indicando que a fonte sempre fique com a melhor legibilidade possível*/
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+input, button{
+  outline:0;
+}
+
+.content{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+header#main-header{
+  height: 46px;
+  background: #fff;
+  box-shadow: 0 1px 1px rgba(0,0,0, 0.25);
+  position: relative;
+  z-index: 1;
+}
+
+header#main-header .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+header#main-header nav ul{
+  display: flex;
+  list-style: none;
+}
+  
+header#main-header nav ul li{
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #667580;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+header#main-header nav ul li:first-child{
+  margin: 0;
+}
+
+header#main-header nav ul li img{
+  margin-right: 7px;
+}
+
+header#main-header div.site{
+  display: flex;
+}
+
+header#main-header div.site input{
+  width: 220px;
+  border: 1px solid #e6ecf0;
+  height: 34px;
+  padding: 0 30px 0 12px;
+  border-radius: 16px;
+  color: #667581;
+  font-size: 12px;
+  /* Adiconando a lupa do campo de busca */
+  background: #f5f8fa url('images/search.svg') no-repeat 190px center;
+}
+
+header#main-header div.site img{
+   height: 34px;
+   width: 34px;
+   border-radius: 50%;
+   margin: 0 15px;
+}
+
+header#main-header div.site button{
+  height: 34px;
+  background: #3bb9e3;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 90px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  border: 0;
+  border-radius: 16px; 
+}
+
+div.banner{
+  height: 380px;
+  width: 100%;
+  background:url('images/aircraft-balloon-ballooning-36487.jpg') no-repeat center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+div.sidebar{
+  height: 59px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba( 0, 0, 0, 0.25);
+}
+
+div.sidebar .content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 285px;
+  height: 100%;
+}
+
+div.sidebar .content ul{
+  display: flex;
+  list-style: none;
+  height: 100%;
+}
+
+div.sidebar .content ul li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  position: relative;
+}
+
+div.sidebar .content ul li.active::after{
+  content: '';
+  width: 100%;
+  height: 2.5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #3bb9e3;
+}
+
+div.sidebar .content ul li span{
+  color: #667580;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+div.sidebar .content ul li strong{
+  color: #667580;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+div.sidebar .content ul li strong{
+  color: #3bb9e3;
+}
+
+div.sidebar .content .actions {
+  display: flex;
+}
+
+div.sidebar .content .actions button{
+  height: 34px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 90px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #3bb9e3;
+  border: 1px solid #3bb9e3 ;
+  background: #fff;
+  border-radius: 16px;
+  margin-right: 20px;
+}
+
+div.wrapper-content{
+  display: flex;
+}
+
+div.wrapper-content aside.profile{
+  width: 260px;
+}
+
+div.wrapper-content aside.profile img.avatar{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-top: -130px;
+}
+
+div.wrapper-content aside.profile h1{
+  font-size: 21px;
+  color: #1f2226;
+  margin-top:10px;
+}
+
+div.wrapper-content aside.profile span{
+  font-size: 14px;
+  color: #53626c;
+}
+
+div.wrapper-content aside.profile p{
+  font-size: 14px;
+  color: #1f2226;
+  margin-top: 15px;
+}
+
+div.wrapper-content aside.profile ul{
+  list-style: none;
+  margin-top: 20px;
+}
+
+div.wrapper-content aside.profile li{
+  font-size: 14px;
+  color: #1f2226;
+
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+div.wrapper-content aside.profile li:first-child{
+  margin: 0;
+}
+
+div.wrapper-content aside.profile img{
+margin-right: 10px;
+}

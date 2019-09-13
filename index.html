@@ -16,15 +16,9 @@
     <div class="content">
       <nav>
         <ul>
-          <li><img src="images/home.svg" alt="home"> Home
-            <strong></strong>
-          </li>
-          <li><img src="images/notification.svg" alt="notifications"> Notifications
-            <strong></strong>
-          </li>
-          <li><img src="images/message.svg" alt="message"> Messages
-            <strong></strong>
-          </li>
+          <li><img src="images/home.svg" alt="home"> Home</li>
+          <li><img src="images/notification.svg" alt="notifications"> Notifications</li>
+          <li><img src="images/message.svg" alt="message"> Messages</li>
         </ul>
       </nav>
       <img src="images/favicon.svg" alt="Logo do twitter">
@@ -37,7 +31,7 @@
   </header>
 
   <div class="banner">
-
+    <h1></h1>
   </div>
 
   <div class="sidebar">
@@ -48,7 +42,7 @@
           <strong>1234</strong>
         </li>
         <li>
-          <span>Following</span>
+          <span>Followings</span>
           <strong>2</strong>
         </li>
         <li>
@@ -69,25 +63,180 @@
   </div>
 
   <div class="wrapper-content content">
+
     <aside class="profile">
       <img src="images/avatar-grande.jpg" alt="avatar ilda silva" class="avatar">
       <h1>Ilda silva</h1>
       <span>@IldaSilva</span>
-      <p>Desenvolvedora Frontend - React apaixonada pela tecnologia</p>
-      <ul>
+      <p>Desenvolvedora Frontend - React apaixonada por tecnologia.</p>
+
+      <ul class="list">
         <li><img src="images/place.svg" alt="lugar">Salvador, Bahia / Brasil</li>
         <li><img src="images/link.svg" alt="link"><a href="https://github.com/ildasilva">Github</a></li>
         <li><img src="images/born.svg" alt="born">Born the 14th of april</li>
       </ul>
+
+      <div class="widget followers">
+        <strong>
+          <img src="images/followers.svg" alt="followers">5 followers that you know
+        </strong>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
+      <div class="widget images">
+        <strong>
+          <img src="images/images.svg" alt="images">266 Photos and videos
+        </strong>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
     </aside>
+
     <section class="timeline">
-      <ul>
-        <li><img src="images/followers.svg" alt="followers">5 followers that you know</li>
+      <nav>
+        <a href="" class="active">Tweets</a>
+        <a href="">Tweets and replies</a>
+        <a href="">Medias</a>
+      </nav>
+
+      <ul class="tweets">
+        <li>
+          <img src="images/avatar.jpg" alt="avatar">
+          <div class="info">
+            <strong>Ilda Silva <span>@ildasilva</span></strong>
+            <p>Quando você se dedica, se empenha ao máximo, os frutos veem. As vezes pode parecer demorado, ou que até
+              nem acontecerá, mas com calma e persistência, logo aparecem.</p>
+            <div class="actions">
+              <a href=""><img src="images/comments.svg" alt="coments">10</a>
+              <a href=""><img src="images/retweet.svg" alt="retweet">8</a>
+              <a href=""><img src="images/linke.svg" alt="likes">221</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="images/filipe-deschamps.png" alt="avatar">
+          <div class="info">
+            <strong>Deschamps <span>@filipedeschamps</span></strong>
+            <p>Não sei se isso é bom ou ruim, mas to começando a gostar de interagir no Instagram. Tem algumas formas de
+              interação "vai-e-volta" que são muito legais</p>
+            <div class="actions">
+              <a href=""><img src="images/comments.svg" alt="coments">10</a>
+              <a href=""><img src="images/retweet.svg" alt="retweet">8</a>
+              <a href=""><img src="images/linke.svg" alt="likes">221</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="images/avatar.jpg" alt="avatar">
+          <div class="info">
+            <strong>Ilda Silva <span>@ildasilva</span></strong>
+            <p>É muito emocionante quando colocamos sentimentos naquilo que fazemos.
+              Aprimorando e adquirindo novos conhecimentos para me levar a um novo nível profissional #bootcampgostack8
+              #rocketseat Rocketseat</p>
+            <div class="actions">
+              <a href=""><img src="images/comments.svg" alt="coments">63</a>
+              <a href=""><img src="images/retweet.svg" alt="retweet">41</a>
+              <a href=""><img src="images/linke.svg" alt="likes">221</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="images/rocketseat.jpg" alt="avatar">
+          <div class="info">
+            <strong>Rocketseat <span>@rocketseat</span></strong>
+            <p>Fala dev, o último episódio da Semana OmniStack 8.0 está no ar, e todo o conteúdo do evento fica
+              disponível até domingo, então corre lá e aproveita </p>
+            <div class="actions">
+              <a href=""><img src="images/comments.svg" alt="coments">2</a>
+              <a href=""><img src="images/retweet.svg" alt="retweet">15</a>
+              <a href=""><img src="images/linke.svg" alt="likes">1563</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="images/diego-fernandes.png" alt="diego-fernandes">
+          <div class="info">
+            <strong>Diego Fernandes <span>@dieegosf</span></strong>
+            <p>Comecei a gravar alguns "vlogs" demonstrando minha rotinha dia-a-dia. Até agora gravei mostrando o
+              estúdio novo, mostrando como me organizo nas tarefas, algumas opiniões sobre ferramentas, mostrando a
+              Rocket por dentro. O que mais eu poderia gravar? </p>
+            <div class="actions">
+              <a href=""><img src="images/comments.svg" alt="coments">10</a>
+              <a href=""><img src="images/retweet.svg" alt="retweet">8</a>
+              <a href=""><img src="images/linke.svg" alt="likes">3</a>
+            </div>
+          </div>
+        </li>
       </ul>
     </section>
-    <aside class="widgets">
 
+    <aside class="widgets">
+      <div class="widget follow">
+        <div class="title">
+          <strong>Who to follow</strong>
+          <a href="#">Refresh</a>
+          <a href="">View all</a>
+        </div>
+
+        <ul>
+          <li>
+            <div class="profile">
+              <img src="images/diego-fernandes.png" alt="diego-fernandes">
+              <div class="info">
+                <strong>Diego Fernandes <span>@dieegosf</span></strong>
+                <button>Follow</button>
+              </div>
+            </div>
+            <a href="">x</a>
+          </li>
+          <li>
+            <div class="profile">
+              <img src="images/rocketseat.jpg" alt="rocketseat">
+              <div class="info">
+                <strong>Rocketseat<span>@rocketseat</span></strong>
+                <button>Follow</button>
+              </div>
+            </div>
+            <a href="">x</a>
+          </li>
+          <li>
+            <div class="profile">
+              <img src="images/filipe-deschamps.png" alt="filipe deschamps">
+              <div class="info">
+                <strong>Deschamps<span>@filipedeschamps</span></strong>
+                <button>Follow</button>
+              </div>
+            </div>
+            <a href="">x</a>
+          </li>
+        </ul>
+      </div>
     </aside>
+
+    <div class="widget trends">
+
+    </div>
+
+
+
+
   </div>
 </body>
 
